@@ -1,0 +1,607 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Navigation Bar */
+    .navbar{
+        width: 95%;    
+    }
+    .navbar ul li{
+        visibility: hidden;
+    }
+    /* Home Section */
+    .home-container{
+        width: 86%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 130vh;
+    }
+    .home-container .home-image{
+        width: 100%;
+        height: 57%;
+    }
+    .home-container .home-desc{
+        width: 100%;
+        align-items: center;
+    }
+    .home-container .home-desc h2,.home-container .home-desc p{
+        text-align: center;
+    }
+    /* Our Chefs Section */
+    .chefs-container{
+        height:310vh;
+    }
+    .chefs-container .chefcards-container{
+        height: 92%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .chefs-container .chefcards-container .chefs-card{
+        width: 90%;
+    }
+    .chefs-container .chefcards-container .chefs-card .waves{
+        bottom: 8;
+    }
+    /* Gallery Section */
+    .gallery-container{
+        height:fit-content;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .gallery-container .gallerycards-container{
+        flex-direction: row;
+        justify-content:space-around ;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .gallery-container .gallerycards-container .pizza-card,.gallery-container .gallerycards-container .burger-card,
+    .gallery-container .gallerycards-container .crispy-card{
+        height:13%;
+        width:90%;
+    }
+    .gallery-container .gallerycards-container .frittata-card,.gallery-container .gallerycards-container .kebab-card{
+        height:20%;
+        width:90%;
+    }
+    .gallery-container .gallerycards-container .levitationp-card,.gallery-container .gallerycards-container .beef-card{
+        height:40%;
+        width:90%;
+    }
+    .gallery-container .gallerycards-container .pizza-card{
+        order: -4;
+    }
+    .gallery-container .gallerycards-container .burger-card{
+        order:-3 ;
+    }
+    .gallery-container .gallerycards-container .levitationp-card{
+        order: -2;
+    }
+    .gallery-container .gallerycards-container .frittata-card{
+        order: -1;
+    }
+    /* Contact Section */
+    .contact-container{
+        height: 250vh;
+        width: 85%;
+    }
+    .contact-container .contactcards-container .contact-card{
+        width:100% ;
+    }
+    .contact-container .contact-form .short-input{
+        width: 98%;
+    }
+    .contact-container .contact-form .submit-btn{
+        width: 40%;
+        margin-left: 30%;
+    }
+    /* Footer Section */
+    .footer-container{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 120vh;
+    }
+    .footer-container .footer-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 90%;
+    }
+    .footer-container .footer-content-container .footer-social{
+        width: 95%;
+    }
+    .footer-container .footer-content-container .footer-social h3::after{
+        width: 500px;
+    }
+    .footer-links{
+        width: 95%;
+    }
+    .footer-contact{
+        width: 95%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        /* Navigation Bar */
+    .navbar{
+        width: 530px;
+    }
+    .navbar ul li{
+        visibility: hidden;
+    }
+        /* Home Section */
+    .home-container{
+        width: 86%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 130vh;
+    }
+    .home-container .home-image{
+        height: 57%;
+        width: 550px;
+    }
+    .home-container .home-desc{
+        width: 550px;
+        align-items: center;
+    }
+    .home-container .home-desc h2{
+        width: 70%;
+    }
+    .home-container .home-desc h2,.home-container .home-desc p{
+        text-align: center;
+    }
+    /* Our Chefs Section */
+    .chefs-container{
+        height:310vh;
+        justify-content: center;
+    }
+    .chefs-container .chefcards-container{
+        height: 92%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .chefs-container .chefcards-container .chefs-card{
+        width: 530px;
+    }
+    .chefs-container .chefcards-container .chefs-card .waves{
+        bottom: 20;
+    }
+    /* Gallery Section */
+    .gallery-container{
+        height:fit-content;
+        width: 100%;
+    }
+    .gallery-container .gallerycards-container{
+        flex-direction: row;
+        justify-content:space-around ;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .gallery-container .gallerycards-container .pizza-card,.gallery-container .gallerycards-container .burger-card,
+    .gallery-container .gallerycards-container .crispy-card{
+        height:25%;
+        width:530px;
+    }
+    .gallery-container .gallerycards-container .frittata-card,.gallery-container .gallerycards-container .kebab-card{
+        height:40%;
+        width:530px;
+    }
+    .gallery-container .gallerycards-container .levitationp-card,.gallery-container .gallerycards-container .beef-card{
+        height:60%;
+        width:530px;
+    }
+    .gallery-container .gallerycards-container .pizza-card{
+        order: -4;
+    }
+    .gallery-container .gallerycards-container .burger-card{
+        order:-3 ;
+    }
+    .gallery-container .gallerycards-container .levitationp-card{
+        order: -2;
+    }
+    .gallery-container .gallerycards-container .frittata-card{
+        order: -1;
+    }
+    /* Contact Section */
+    .contact-container{
+        width: 500px;
+        height: 250vh;
+    }
+    .contact-container .contactcards-container .contact-card{
+        width:100% ;
+    }
+    .contact-container .contact-form .short-input{
+        width: 98%;
+    }
+    .contact-container .contact-form .submit-btn{
+        width: 40%;
+        margin-left: 30%;
+    }
+    /* Footer Section */
+    .footer-container{
+        height: 120vh;
+        width: 100%;
+    }
+    .footer-container .footer-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 570px;
+        height: 90%;
+    }
+    .footer-container .footer-content-container .footer-social{
+        width: 95%;
+    }
+    .footer-container .footer-content-container .footer-social h3::after{
+        width: 500px;
+    }
+    .footer-links{
+        width: 95%;
+    }
+    .footer-contact{
+        width: 95%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        /* Navigation Bar */
+    .navbar{
+        width: 750px;
+    }
+    .navbar ul li{
+        visibility: hidden;
+    }
+        /* Home Section */
+    .home-container{
+        width: 86%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 150vh;
+    }
+    .home-container .home-image{
+        width: 720px;
+        height: 65%;
+    }
+    .home-container .home-desc{
+        align-items: center;
+    }
+    .home-container .home-desc h2{
+        width: 70%;
+    }
+    .home-container .home-desc p{
+        width: 120%;
+    }
+    .home-container .home-desc h2,.home-container .home-desc p{
+        text-align: center;
+    }
+    /* Our Chefs Section */
+    .chefs-container{
+        height:220vh;
+        justify-content: space-evenly;
+    }
+    .chefs-container .chefcards-container{
+        height: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        width: 720px;
+    }
+    .chefs-container .chefcards-container .chefs-card{
+        width: 47%;
+        height: 45%;
+    }
+    .chefs-container .chefcards-container .chefs-card .waves{
+        bottom: 5;
+    }
+    /* Gallery Section */
+    .gallery-container{
+        flex-direction: column;
+        height: 300vh;
+        justify-content: space-evenly;
+        width: 762px;
+    }
+    .gallery-container .gallerycards-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: space-evenly;
+        height: 85%;
+        width: 762px;
+    }
+    .gallery-container .gallerycards-container .pizza-card,.gallery-container .gallerycards-container .burger-card,
+    .gallery-container .gallerycards-container .crispy-card{
+        height:15%;
+        width:370px;
+    }
+    .gallery-container .gallerycards-container .frittata-card,.gallery-container .gallerycards-container .kebab-card{
+        height:20%;
+        width:370px;
+    }
+    .gallery-container .gallerycards-container .levitationp-card,.gallery-container .gallerycards-container .beef-card{
+        height:30%;
+        width:370px;
+    }
+    .gallery-container .gallerycards-container .pizza-card{
+        order: -4;
+    }
+    .gallery-container .gallerycards-container .frittata-card{
+        order:-1 ;
+    }
+    .gallery-container .gallerycards-container .levitationp-card{
+        order: -2;
+    }
+    .gallery-container .gallerycards-container .burger-card{
+        order: -3;
+    }
+    /* Contact Section */
+    .contact-container{
+        width: 100%;
+    }
+    .contact-container .contact-form .submit-btn{
+        width: 180px;
+    }
+    /* Footer Section */
+    .footer-container{
+        height: 80vh;
+    }
+    .footer-container .footer-content-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 750px;
+    }
+    .footer-container .footer-content-container .footer-social{
+        width: 48%;
+        order: -2;
+    }
+    .footer-container .footer-content-container .footer-social h3::after{
+        width: 350px;
+    }
+    .footer-links{
+        width: 95%;
+    }
+    .footer-contact{
+        width: 48%;
+        order:-1
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        /* Navigation Bar */
+    .navbar{
+        width: 970px;
+    }
+    .navbar ul li{
+        visibility: hidden;
+    }
+        /* Home Section */
+    .home-container{ 
+        width: 95%;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 65vh;
+    }
+    .home-container .home-image{
+        width: 40%;
+        height: 85%;
+    }
+    .home-container .home-desc{
+        width: 40%;
+        align-items: flex-start;
+    }
+    .home-container .home-desc h2 ,  .home-container .home-desc p{
+        width: 100%;
+        text-align: left;
+    }
+    /* Our Chefs Section */
+    .chefs-container{
+        height:120vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .chefs-container .chefcards-container{
+        height: 80%;
+        width: 990px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .chefs-container .chefcards-container .chefs-card{
+        width: 30%;
+        height: 85%;
+    }
+    .chefs-container .chefcards-container .chefs-card .waves{
+        bottom: 2;
+    }
+    /* Gallery Section */
+    .gallery-container{
+        height: 180vh;
+        justify-content: center;
+        width: 992px;
+    }
+    .gallery-container .gallerycards-container{
+        flex-wrap: wrap;
+        align-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+        height: 90%;
+        width: 100%;
+    }
+    .gallery-container .gallerycards-container .pizza-card,.gallery-container .gallerycards-container .burger-card,
+    .gallery-container .gallerycards-container .crispy-card{
+        height:25%;
+        width:30%;
+    }
+    .gallery-container .gallerycards-container .frittata-card,.gallery-container .gallerycards-container .kebab-card{
+        height:35%;
+        width:30%;
+    }
+    .gallery-container .gallerycards-container .levitationp-card{
+        height:50%;
+        width:30%;
+    }
+    .gallery-container .gallerycards-container .beef-card{
+        height:55%;
+        width:30%;
+    }
+    .gallery-container .gallerycards-container .burger-card{
+        order:-1 ;
+    }
+    .gallery-container .gallerycards-container .beef-card{
+        order: -2;
+    }
+    .gallery-container .gallerycards-container .levitationp-card{
+        order: -3;
+    }
+    .gallery-container .gallerycards-container .pizza-card{
+        order: -4;
+    }
+    /* Contact Section */
+    .contact-container{
+        width: 900px;
+    }
+    .contact-container .contactcards-container .contact-card{
+        width:48% ;
+    }
+        .contact-container .contact-form .short-input{
+        width: 47.4%;
+    }
+    .contact-container .contact-form .submit-btn{
+        margin-left: 40%;
+    }
+    /* Footer Section */
+    .footer-container{
+        height: 80vh;
+    }
+    .footer-container .footer-content-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        height: 90%;
+    }
+    .footer-container .footer-content-container .footer-social{
+        width: 48%;
+        order: -2;
+    }
+    .footer-container .footer-content-container .footer-social h3::after{
+        width: 350px;
+    }
+    .footer-links{
+        width: 95%;
+    }
+    .footer-contact{
+        width: 48%;
+        order:-1
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        /* Navigation Bar */
+    .navbar{
+        width: 87%;
+    }
+    .navbar ul li{
+        visibility: visible;
+    }
+        /* Home Section */
+    .home-container{ 
+        width: 86%;
+        justify-content: space-between;
+        align-items: center;
+        height: 87.5vh;
+    }
+    .home-container .home-image{
+        width: 40%;
+        height: 85%;
+    }
+    .home-container .home-desc{
+        width: 35%;
+    }
+    /* Our Chefs Section */
+    .chefs-container{
+        height:120vh;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;;
+    }
+    .chefs-container .chefcards-container{
+        height: 80%;
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .chefs-container .chefcards-container .chefs-card{
+        width: 31%;
+        height: 85%;
+    }
+    .chefs-container .chefcards-container .chefs-card .waves{
+        bottom: 10;
+    }
+    /* Gallery Section */
+    .gallery-container{
+        height: 180vh;
+        justify-content: center;
+        width: 93%;
+    }
+    /* Contact Section */
+    .contact-container{
+    width: 85%;
+    justify-content: space-evenly;
+    height: 180vh;
+    }
+    .contact-container .contactcards-container .contact-card{
+    width:49% ;
+    }
+    .contact-container .contact-form textarea ,.contact-container .contact-form input{
+        width: 98.5%;
+    }
+    .contact-container .contact-form .short-input{
+    width: 48%;
+    }
+    .contact-container .contact-form .submit-btn{
+    margin-left: 40%;
+    }
+    /* Footer Section */
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+    }
+    .footer-container .footer-content-container{
+        display: flex;
+        justify-content: space-around;
+        width: 85%;
+    }
+    .footer-container .footer-content-container .footer-social{
+        width: 25%;
+        order: 1;
+    }
+    .footer-container .footer-content-container .footer-social h3::after{
+        width: 300px;
+    }
+    .footer-links{
+        width: 47%;
+        height: 100%;
+        order: 1;
+    }
+    .footer-contact{
+        width: 23%;
+        order: 1;
+    }
+}
